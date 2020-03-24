@@ -22,6 +22,9 @@ function appendKitten(name){
   var newArr = kittens.concat(name);
   return newArr;
 }
-function removeFirstKitten(arr){
+function removeFirstKitten(){
   return kittens.slice(0);
+}
+function removeLastKitten(){
+  
 }
