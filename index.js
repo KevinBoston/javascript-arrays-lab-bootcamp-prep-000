@@ -13,7 +13,7 @@ function destructivelyPrependKitten(arr, name){
   return arr;
 }
 function destructivelyRemoveLastKitten(arr){
-  arr = arr.pop();
+  arr.pop();
   return arr;
 }
 function destructivelyRemoveFirstKitten(arr){
