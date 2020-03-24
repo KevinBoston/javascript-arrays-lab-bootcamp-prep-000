@@ -18,6 +18,9 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
   return kittens;
 }
+function prependKitten(){
+  var newArr = kittens.
+}
 function appendKitten(name){
   var newArr = kittens.concat(name);
   return newArr;
