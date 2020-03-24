@@ -16,14 +16,14 @@ function destructivelyRemoveLastKitten(){
   kittens.pop();
   return kittens;
 }
-function destructivelyRemoveFirstKitten(arr){
-  arr.shift();
-  return arr;
+function destructivelyRemoveFirstKitten(){
+  kittens.shift();
+  return kittens;
 }
-function appendKitten(arr, name){
-  var newArr = arr.concat(name);
+function appendKitten(name){
+  var newArr = kittens.concat(name);
   return newArr;
 }
 function removeFirstKitten(arr){
-  return arr.slice();
+  return kittens.slice();
 }
